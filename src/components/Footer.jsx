@@ -1,11 +1,25 @@
 export default function Footer() {
     return (
-        <nav className="navbar fixed-bottom bg-body-tertiary">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="https://www.github.com/williamk31">
-                    <img src="/icons8-lobster-24.png"></img>
-                </a>
+        <footer className="bg-body-tertiary fixed-bottom text-center py-3">
+            <div className="container">
+                <ul className="list-inline">
+                    <li className="list-inline-item">
+                        <a className="navbar-brand" href="https://www.github.com/williamk31">
+                            <img src="src/assets/github.svg" alt="GitHub" style={{ width: '30px', height: '30px'}}></img>
+                        </a>
+                    </li>
+                    <li className="list-inline-item">
+                        <a className="navbar-brand" href="https://www.linkedin.com/in/william-kalish/">
+                            <img src="src/assets/linkedin.svg" alt="LinkedIn" style={{ width: '30px', height: '30px'}}></img>
+                        </a>
+                    </li>
+                    <li className="list-inline-item">
+                        <a className="navbar-brand" href="mailto:williamk31@gmail.com">
+                            <img src="src/assets/envelope-solid.svg" alt="Email" style={{ width: '30px', height: '30px'}}></img>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </footer>
     )
 }
