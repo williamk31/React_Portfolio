@@ -2,7 +2,7 @@
 export default function Project({ project }) {
     const cardStyle = {
         backgroundColor: 'lightblue',
-        width: '18rem',
+        width: '25rem',
         padding: '10px',
         margin: '10px'
     }
