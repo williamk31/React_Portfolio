@@ -14,7 +14,7 @@ export default function Project({ project }) {
             <div className="card-body">
                 <h5 className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <a href={project.url} style={{ color: 'white' }}>{project.name}</a>
-                    <a href={project.repo}><img src='src/assets/github.svg' alt="github icon" style={{ width: '25px', height: '25px'}}></img></a>
+                    <a href={project.repo}><img src='/assets/github.svg' alt="github icon" style={{ width: '25px', height: '25px'}}></img></a>
                 </h5>
                 <p className="card-text">{project.description}</p>
             </div>

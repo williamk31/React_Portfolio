@@ -5,17 +5,17 @@ export default function Footer() {
                 <ul className="list-inline">
                     <li className="list-inline-item">
                         <a className="navbar-brand" href="https://www.github.com/williamk31">
-                            <img src="src/assets/github.svg" alt="GitHub" style={{ width: '30px', height: '30px'}}></img>
+                            <img src="/assets/github.svg" alt="GitHub" style={{ width: '30px', height: '30px'}}></img>
                         </a>
                     </li>
                     <li className="list-inline-item">
                         <a className="navbar-brand" href="https://www.linkedin.com/in/william-kalish/">
-                            <img src="src/assets/linkedin.svg" alt="LinkedIn" style={{ width: '30px', height: '30px'}}></img>
+                            <img src="/assets/linkedin.svg" alt="LinkedIn" style={{ width: '30px', height: '30px'}}></img>
                         </a>
                     </li>
                     <li className="list-inline-item">
                         <a className="navbar-brand" href="mailto:williamk31@gmail.com">
-                            <img src="src/assets/envelope-solid.svg" alt="Email" style={{ width: '30px', height: '30px'}}></img>
+                            <img src="/assets/envelope-solid.svg" alt="Email" style={{ width: '30px', height: '30px'}}></img>
                         </a>
                     </li>
                 </ul>
