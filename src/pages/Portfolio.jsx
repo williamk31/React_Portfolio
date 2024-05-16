@@ -23,24 +23,30 @@ export default function Portfolio() {
     let project = projects[index];
 
     return (
-        <div>
+        <div className="container">
             <h1>Portfolio</h1>
-            <div className="container">
+            <div className="project-card">
                 <button
-                    onClick={handlePrevClick}
-                    disabled={!hasPrev}
-                    >
-                        Previous
-                </button>
-                <button
-                    onClick={handleNextClick}
-                    disabled={!hasNext}
-                    >
-                        Next
-                </button>
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        className="btn btn-outline-dark btn-previous project-buttons"
+                        onClick={handlePrevClick}
+                        disabled={!hasPrev}
+                        >
+                           <span className="material-symbols-outlined">
+                            arrow_back_ios
+                            </span>
+                    </button>
+                <div className="project-content">
                         <Project key={project.id} project={project}/>
                 </div>
+                    <button
+                        className="btn btn-outline-dark btn-next project-buttons"
+                        onClick={handleNextClick}
+                        disabled={!hasNext}
+                        >
+                          <span className="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </button>
             </div>
         </div>
     )

@@ -1,4 +1,59 @@
-
 body {
   padding-bottom: 65px;
+}
+
+h1 {
+  color: #F58A07
+}
+
+.project-card {
+  display: flex;
+  justify-content: center;
+}
+
+.project-buttons {
+  display: none;
+}
+
+.project-card:hover .project-buttons {
+  display: block;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 35%;
+}
+
+.form textarea {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 35%;
+}
+
+.bg-light {
+  background-color: #B3C0A4 !important;
+}
+
+.bg-body-tertiary {
+  background-color: #B3C0A4!important;
+}
+
+.nav-link{
+  background-color: #584B53 !important;
+  color: white;
+}
+
+.active {
+  background-color: #B3C0A4 !important;
+}
+
+.bg-dark {
+  background-color: #37423D !important;
 }

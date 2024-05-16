@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-body-tertiary fixed-bottom text-center py-3">
+        <footer className="bg-light fixed-bottom text-center py-3">
             <div className="container">
                 <ul className="list-inline">
                     <li className="list-inline-item">

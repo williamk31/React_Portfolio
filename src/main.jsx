@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
-import Contact from './pages/Contact.jsx';
+import ContactForm from './pages/Contact.jsx';
 import Error from './pages/Error.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/contact',
-        element: <Contact />,
+        element: <ContactForm />,
       },
       {
         path: '/resume',
