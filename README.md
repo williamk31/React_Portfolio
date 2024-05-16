@@ -99,7 +99,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This application is a single page web application. Simply navigate to the URL to use this webpage. 
+This application is a single page web application. Simply click [here](https://astounding-faloodeh-5a1305.netlify.app/) to use this webpage. 
 
 ### Prerequisites
 
@@ -116,7 +116,7 @@ No installation required!
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Follow the link to be taken to the deployed application:
+Follow the link to be taken to the deployed application: [React Portfolio](https://astounding-faloodeh-5a1305.netlify.app/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
