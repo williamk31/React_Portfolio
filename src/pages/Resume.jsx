@@ -1,7 +1,9 @@
 export default function Resume() {
     return (
         <div className="container">
+            <div className="row">
             <h1>Resume</h1>
+            <div className="col"> 
             <h4>Summary</h4>
             <p>Full Stack Web Developer with a degree in Psychology and Linguistics and extensive management and guest service experience. Detail-oriented and a skilled problem-solver.</p>
             <h4>Technical Skills</h4>
@@ -10,6 +12,11 @@ export default function Resume() {
                 <strong>Applications:</strong> Node.js, Express.js, React.js, Bootstrap, Postgres, Sequelize, MongoDB, handlebars, JQuery, GraphQL
                 <br></br>
                 <strong>Developer Tools:</strong> VSCode, Insomnia, Git, GitHub, GitLab</p>
+                <h4>Education</h4>
+            <h5><strong>University of Denver/EdX</strong> / Full Stack Web Development Boot Camp Certificate</h5>
+            <h5><strong>Brandeis University</strong> / BA in Psychology and Linguistics</h5>
+            </div>
+            <div className="col">
             <h4>Experience</h4>
             <h5><strong>Purgatory Resort</strong> / Guest Services Systems Manager</h5>
             <h6>January 2024 - Present</h6>
@@ -29,9 +36,8 @@ export default function Resume() {
             <br></br>
             Work with a team to achieve the appropriate balance between revenue and payroll expenses within our department.
             </p>
-            <h4>Education</h4>
-            <h5><strong>University of Denver/EdX</strong> / Full Stack Web Development Boot Camp Certificate</h5>
-            <h5><strong>Brandeis University</strong> / BA in Psychology and Linguistics</h5>
+            </div>
+            </div>
         </div>
     )
 }

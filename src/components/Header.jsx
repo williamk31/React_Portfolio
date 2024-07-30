@@ -2,10 +2,9 @@ import Nav from './Nav';
 
 export default function Header() {
     return(
-        <header className="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 border-bottom bg-light">
+        <header className="d-flex flex-wrap justify-content-between align-items-center py-1 px-5 mb-4 border-bottom">
             <div className="d-flex align-items-center ms-3">
-                <img src="/assets/Profile-picture.png" alt="profile-picture" className="rounded-circle me-3 bg-dark" style={{ width: '150px', height: '150px' }}></img>
-                <span className="fs-1 ms-3">William Kalish</span>
+                <img src="/assets/image1.png" alt="initials"></img>
             </div>
             <Nav />
         </header>

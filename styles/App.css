@@ -3,7 +3,20 @@ body {
 }
 
 h1 {
-  color: #F58A07
+  font-weight: bold;
+  font-family: CircularStd;
+  /* font-size: larger; */
+}
+
+h4 {
+  font-family: CircularStd;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style:  normal;
 }
 
 .project-card {
@@ -41,18 +54,29 @@ h1 {
   background-color: #B3C0A4 !important;
 }
 
-.bg-body-tertiary {
+/* .bg-body-tertiary {
   background-color: #B3C0A4!important;
-}
+} */
 
 .nav-link{
-  background-color: #584B53 !important;
-  color: white;
+  font-family: CircularStd;
+  color: #22282F;
 }
 
-.active {
-  background-color: #B3C0A4 !important;
+.strong-text {
+  color: #F2F5F7
 }
+
+.regular-text {
+  /* font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style:  normal; */
+  color: #F2F5F7
+}
+
+/* .active {
+  background-color: #B3C0A4 !important;
+} */
 
 .bg-dark {
   background-color: #37423D !important;
