@@ -2,13 +2,15 @@
 
 export default function HeroImage() {
     return (
-        <div className="hero-image" style={{ backgroundImage: `url(/assets/hero-image.png)`, height: 600}}>
+        <div className="hero-image" style={{ backgroundImage: `url(/assets/hero-image.png)`, height: 869}}>
         <div className="container">
             
             <div className="strong-text">
+                <div className="hero-text">
                 <h1>
                     Detail-oriented and methodical by nature, I approach challenges with a strategic mindset.
                 </h1>
+                </div>
             </div>
             <div className="regular-text">
                 <p>
