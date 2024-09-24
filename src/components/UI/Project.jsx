@@ -3,7 +3,7 @@ export default function Project({ project }) {
     const cardStyle = {
         backgroundColor: '#596774',
         color: 'white',
-        width: '50rem',
+        // width: '50rem',
         padding: '10px',
         margin: '10px'
     }
@@ -27,7 +27,7 @@ export default function Project({ project }) {
                 <p className="card-text">{project.description}</p>
                 <div className="card-buttons">
                     <button type="button" className="btn btn-primary me-4" onClick={handleWebsiteClick}>WEBSITE</button>
-                    <button type="button" className="btn btn-primary" onClick={handleGitHubClick}><img src='/assets/github.svg' alt="github icon" style={{ width: '25px', height: '25px', color: '#596774'}}></img>GITHUB</button>
+                    <button type="button" className="btn btn-primary" onClick={handleGitHubClick}><img src='/assets/github.svg' alt="github icon" style={{ width: '25px', height: '25px'}}></img> GITHUB</button>
                 </div>
             </div>
         </div>

@@ -55,26 +55,30 @@ export default function ContactForm() {
               Submit
             </button>
           </form>
+          <div className="contact-icons flex-md-row">
           <ul className="list-inline">
             <li className="list-inline-item">
               <a className="navbar-brand" href="https://www.github.com/williamk31">
-                <img src="/assets/github.svg" alt="GitHub" style={{ width: '102px', height: '102px' }}></img>
+                <img src="/assets/github_color.svg" alt="GitHub" style={{ width: '100%', height: '100%' }}></img>
               </a>
             </li>
             <li className="list-inline-item">
               <a className="navbar-brand" href="https://www.linkedin.com/in/william-kalish/">
-                <img src="/assets/linkedin.svg" alt="LinkedIn" style={{ width: '102px', height: '102px' }}></img>
+                <img src="/assets/linkedin_color.svg" alt="LinkedIn" style={{ width: '100%', height: '100%' }}></img>
               </a>
             </li>
             <li className="list-inline-item">
               <a className="navbar-brand" href="mailto:williamk31@gmail.com">
-                <img src="/assets/envelope-solid.svg" alt="Email" style={{ width: '102px', height: '102px' }}></img>
+                <img src="/assets/email_icon.svg" alt="Email" style={{ width: '100%', height: '100%' }}></img>
               </a>
             </li>
           </ul>
+          </div>
         </div>
         <div className="col-sm right-column">
+          <div className="profile-picture">
           <img src="/assets/Profile-picture.png" alt="profile picture" style={{ width: '100%', height: '100%' }}></img>
+          </div>
         </div>
       </div>
     </div>

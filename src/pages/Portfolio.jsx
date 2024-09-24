@@ -30,8 +30,8 @@ export default function Portfolio() {
                 <div className="section-header-dark">
                     <h1>Portfolio</h1>
                 </div>
-            <div className="project-card">
-                <button
+                <div className="project-card d-flex flex-column flex-md-row align-items-center">
+                    <button
                         className="btn btn-previous project-buttons"
                         onClick={handlePrevClick}
                         disabled={!hasPrev}
@@ -52,8 +52,28 @@ export default function Portfolio() {
                             <img src="/assets/right_arrow.svg" alt="right arrow" style={{ width: '72px', height: '36px' }}></img>
                         </span>
                     </button>
+                </div>
+                <div className="project-buttons-mobile d-flex justify-content-center d-md-none mt-3">
+                    <button
+                        className="btn btn-previous mx-2"
+                        onClick={handlePrevClick}
+                        disabled={!hasPrev}
+                        >
+                        <span>
+                            <img src="/assets/left_arrow.svg" alt="left arrow" style={{ width: '72px', height: '36px' }}></img>
+                        </span>
+                    </button>
+                    <button
+                        className="btn btn-next mx-2"
+                        onClick={handleNextClick}
+                        disabled={!hasNext}
+                        >
+                        <span>
+                            <img src="/assets/right_arrow.svg" alt="right arrow" style={{ width: '72px', height: '36px' }}></img>
+                        </span>
+                    </button>
+                </div>
             </div>
-        </div>
         </div>
     )
 }

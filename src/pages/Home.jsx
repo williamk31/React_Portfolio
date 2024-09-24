@@ -14,7 +14,7 @@ export default function HeroImage() {
             </div>
             <div className="regular-text">
                 <p>
-                    I excel in procedural problem-solving, always seeking innovative solutions to complex issues. Currently enrolled in a rigorous Full Stack Web Development Boot Camp, I am embracing the challenge with the same approach that has driven me throughout my career.
+                    I excel in procedural problem-solving, always seeking innovative solutions to complex issues. Having recently graduated from a rigorous Full Stack Web Development Boot Camp, I embraced the challenge with the same approach that has driven me throughout my career.
                 </p>
                 <br></br>
                 <p>
